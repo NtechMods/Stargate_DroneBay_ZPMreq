@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<Model Name="Drone_Projectile">
+	<Parameter Name="RescaleFactor">1.0</Parameter>
+	<Parameter Name="Centered">false</Parameter>
+	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
+	<Material Name="Drones">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\OresIngotsComponents\Drone_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\OresIngotsComponents\Drone_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\OresIngotsComponents\Drone_add.dds</Parameter>
+	</Material>
+</Model>

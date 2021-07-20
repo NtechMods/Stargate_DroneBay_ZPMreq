@@ -1,0 +1,118 @@
+Running from: C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\ 
+Command: D:\SEUT\MWMB\MwmBuilder.exe /f /s:C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\ /m:Drone_Projectile*.fbx /o:C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\ /x:D:\SEUT\Materials\ 
+D:\SEUT\Materials\Armors.xml: 
+    Materialslib
+D:\SEUT\Materials\Character.xml: 
+    Materialslib
+D:\SEUT\Materials\CustomMaterials.xml: 
+    Materialslib
+D:\SEUT\Materials\Foliage.xml: 
+    Materialslib
+D:\SEUT\Materials\Items.xml: 
+    Materialslib
+D:\SEUT\Materials\Materials.xml: 
+    Materialslib
+Material Libraries: 
+    Material libraries were successfully loaded from path: D:\SEUT\Materials\
+Meshes: 
+    Found 16 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_cm.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_ng.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: WARNING: 
+    Texture Textures\OresIngotsComponents\Drone_add.dds does not exists!
+C:\Users\Bryon\AppData\Roaming\SpaceEngineers\Mods\Stargate_DroneBay\Models\Ammo\Drone_Projectile.fbx: 
+    : Finished in 0.2s
