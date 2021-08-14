@@ -1,93 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <TransparentMaterials>
-        <TransparentMaterial>
-            <Id>
-                <TypeId>TransparentMaterialDefinition</TypeId>
-                <SubtypeId>IrisShieldGlass</SubtypeId>
-            </Id>
-            <AlphaMistingEnable>false</AlphaMistingEnable>
-            <AlphaSaturation>1</AlphaSaturation>
-            <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
-            <IgnoreDepth>false</IgnoreDepth>
-            <UseAtlas>false</UseAtlas>
-            <SoftParticleDistanceScale>1</SoftParticleDistanceScale>
-            <Texture>Textures\Models\Cubes\Iris_Shield.dds</Texture>
-            <UVOffset>
-                <X>1</X>
-                <Y>1</Y>
-            </UVOffset>
-            <UVSize>
-                <X>1</X>
-                <Y>1</Y>
-            </UVSize>
-            <Color>
-                <X>.95</X>
-                <Y>.95</Y>
-                <Z>.95</Z>
-                <W>1</W>
-            </Color>
-            <ColorAdd>
-                <X>0</X>
-                <Y>0</Y>
-                <Z>0</Z>
-                <W>0.1</W>
-            </ColorAdd>
-            <ShadowMultiplier>
-                <X>0</X>
-                <Y>0</Y>
-                <Z>0</Z>
-                <W>0</W>
-            </ShadowMultiplier>
-            <LightMultiplier>
-                <X>1</X>
-                <Y>1</Y>
-                <Z>1</Z>
-                <W>0.1</W>
-            </LightMultiplier>
-            <Reflectivity>0</Reflectivity>
-            <Fresnel>0</Fresnel>
-            <ReflectionShadow>0</ReflectionShadow>
-            <Gloss>0</Gloss>
-            <GlossTextureAdd>0</GlossTextureAdd>
-            <SpecularColorFactor>0</SpecularColorFactor>
-            <IsFlareOccluder>false</IsFlareOccluder>
-        </TransparentMaterial>
-        <TransparentMaterial>
-            <Id>
-                <TypeId>TransparentMaterialDefinition</TypeId>
-                <SubtypeId>EnergyAmmoGlass</SubtypeId>
-            </Id>
-            <AlphaMistingEnable>false</AlphaMistingEnable>
-            <AlphaSaturation>1</AlphaSaturation>
-            <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
-            <IgnoreDepth>false</IgnoreDepth>
-            <UseAtlas>false</UseAtlas>
-            <SoftParticleDistanceScale>1</SoftParticleDistanceScale>
-            <Texture>Textures\Particles\SemiTintGlass_ca.dds</Texture>
-            <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
-            <ShadowMultiplier>
-                <X>3</X>
-                <Y>3</Y>
-                <Z>3</Z>
-                <W>1</W>
-            </ShadowMultiplier>
-            <LightMultiplier>
-                <X>0.4</X>
-                <Y>0.4</Y>
-                <Z>0.4</Z>
-                <W>3</W>
-            </LightMultiplier>
-            <Reflectivity>1.0</Reflectivity>
-            <Fresnel>2.0</Fresnel>
-            <ReflectionShadow>0.25</ReflectionShadow>
-            <TriangleFaceCulling>false</TriangleFaceCulling>
-            <SoftParticleDistanceScale>20</SoftParticleDistanceScale>
-            <SpecularColorFactor>10</SpecularColorFactor>
-            <Gloss>4.4</Gloss>
-        </TransparentMaterial>
-    </TransparentMaterials>
-    <Components>
+ 
+ <!--   <Components>
         <Component>
             <Id>
                 <TypeId>Component</TypeId>
@@ -110,7 +24,7 @@
             <MaxIntegrity>40</MaxIntegrity>
             <DropProbability>0.7</DropProbability>
         </Component>
-    </Components>
+    </Components> -->
     <!--Block Groups -->
     <BlockVariantGroups>
         <!-- Shields -->
@@ -120,14 +34,14 @@
             <DisplayName>DisplayName_BlockGroup_DroneBay</DisplayName>
             <Description>This module can fire 400 drones every minute, Very devastating platform, uses both energy based drones, and physical drones which can be made in the assembler.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="DroneBay" />
+                <Block Type="MyObjectBuilder_Sorter" Subtype="DroneBay" />
             </Blocks>
         </BlockVariantGroup>
     </BlockVariantGroups>
     <!-- Research -->
     <ResearchBlocks>
         <ResearchBlock xsi:type="ResearchBlock">
-            <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="DroneBay" />
+            <Id Type="MyObjectBuilder_ConveyorSorter" Subtype="DroneBay" />
             <UnlockedByGroups>
                 <GroupSubtype>13</GroupSubtype>
             </UnlockedByGroups>
@@ -135,9 +49,9 @@
     </ResearchBlocks>
     <!-- Block Definitions -->
     <CubeBlocks>
-        <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
             <Id>
-                <TypeId>LargeMissileTurret</TypeId>
+                <TypeId>ConveyorSorter</TypeId>
                 <SubtypeId>DroneBay</SubtypeId>
             </Id>
             <DisplayName>Drone Launcher Bay</DisplayName>
@@ -153,7 +67,6 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="300" />
                 <Component Subtype="Construction" Count="150" />
-                <Component Subtype="ZPM" Count="1" />
                 <Component Subtype="MetalGrid" Count="40" />
                 <Component Subtype="Motor" Count="10" />
                 <Component Subtype="Computer" Count="300" />
@@ -170,7 +83,7 @@
                 <MountPoint Side="Back" StartX="0.02" StartY="0.02" EndX="4.98" EndY="4.97" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\AncientDroneLaunchBay_Constr1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\AncientDroneLaunchBay_BS1.mwm" />
             </BuildProgressModels>
             <BlockPairName>SGDronePod</BlockPairName>
             <Description>testing</Description>
@@ -206,7 +119,7 @@
     </BlockPositions>
     <BlueprintClassEntries>
         <Entry Class="LargeBlocks" BlueprintSubtypeId="DroneLaunchBay" />
-        <Entry Class="Component" BlueprintSubtypeId="ZPM" />
+        <!-- <Entry Class="Component" BlueprintSubtypeId="ZPM" /> -->
         <Entry Class="Ammo" BlueprintSubtypeId="DroneMag" />
     </BlueprintClassEntries>
 </Definitions>

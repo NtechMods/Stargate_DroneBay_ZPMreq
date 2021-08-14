@@ -17,10 +17,10 @@ using VRage.Library;
 using Sandbox.Common.ObjectBuilders.Definitions;
 using Sandbox.ModAPI.Interfaces.Terminal;
 
-namespace Sherbert.ZPM.RecieverNoMsg
+namespace Sherbert.ZPM.RecieverNoMsg.DroneBay
 {
 
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_LargeMissileTurret), false, "DroneBay")]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_ConveyorSorter), false, "DroneBay")]
     public class ZPMReciever1 : MyGameLogicComponent
     {
         private IMyFunctionalBlock block;
@@ -55,9 +55,9 @@ namespace Sherbert.ZPM.RecieverNoMsg
             if(temp.Count != 0)
                 foreach (var i in temp)
                 {
-                    MyObjectBuilder_BatteryBlock j = i.GetObjectBuilder() as MyObjectBuilder_BatteryBlock;
+                    MyObjectBuilder_HydrogenEngine j = i.GetObjectBuilder() as MyObjectBuilder_HydrogenEngine;
 
-                    if (j.Enabled && j.CurrentStoredPower > 0 && j.IntegrityPercent > 0.75f)
+                    if (j.Enabled && j.IntegrityPercent > 0.75f)
                     {
                         return;
                     }                    
@@ -82,11 +82,11 @@ namespace Sherbert.ZPM.RecieverNoMsg
                     foreach (var i in temp)
                     {
                        
-                        MyObjectBuilder_BatteryBlock j = i.GetObjectBuilder() as MyObjectBuilder_BatteryBlock;                   
+                        MyObjectBuilder_HydrogenEngine j = i.GetObjectBuilder() as MyObjectBuilder_HydrogenEngine;                   
                  
                        // MyAPIGateway.Utilities.ShowMessage("percent", j.IntegrityPercent.ToString());
 
-                        if (j.Enabled&&j.CurrentStoredPower>0&&j.IntegrityPercent>0.75f)
+                        if (j.Enabled&&j.IntegrityPercent>0.75f)
                         {
                             return;
                         }
@@ -99,7 +99,7 @@ namespace Sherbert.ZPM.RecieverNoMsg
         bool IsZPM (VRage.Game.ModAPI.IMySlimBlock block)
         {
             string testname = block.BlockDefinition.Id.SubtypeName;
-            if (testname == "Phoenix_Stargate_ZPM")
+            if (testname == "Phoenix_Stargate_ZPMHub") // subtypeid of zpm hub
                 return true;
             return false;
         }
