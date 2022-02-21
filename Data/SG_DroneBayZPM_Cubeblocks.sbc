@@ -106,6 +106,9 @@
             <AiEnabled>false</AiEnabled>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
             <PCU>225</PCU>
+            <TargetingGroups>
+                <string>Weapons</string>
+            </TargetingGroups>
         </Definition>
     </CubeBlocks>
     <BlockPositions>
