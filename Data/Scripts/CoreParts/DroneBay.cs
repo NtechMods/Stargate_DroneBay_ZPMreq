@@ -60,8 +60,8 @@ namespace Scripts
             HardPoint = new HardPointDef
             {
                 PartName = "DroneBay", // name of weapon in terminal
-                DeviateShotAngle = 15f,
-                AimingTolerance = 6f, // 0 - 180 firing angle
+                DeviateShotAngle = 10f,
+                AimingTolerance = 180f, // 0 - 180 firing angle
                 AimLeadingPrediction = Advanced, // Off, Basic, Accurate, Advanced
                 DelayCeaseFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                 AddToleranceToTracking = false,
@@ -83,6 +83,7 @@ namespace Scripts
                     LockOnFocus = true, // Whether this weapon should automatically fire at a target that has been locked onto via HUD.
                     SuppressFire = false, // If enabled, weapon can only be fired manually.
                     OverrideLeads = true, // Disable target leading on fixed weapons, or allow it for turrets.
+                    DefaultLeadGroup = 0, // Default LeadGroup setting, range 0-5, 0 is disables lead group.  Only useful for fixed weapons or weapons set to OverrideLeads.
                 },
                 HardWare = new HardwareDef
                 {
@@ -90,8 +91,8 @@ namespace Scripts
                     ElevateRate = 0.06f,
                     MinAzimuth = -180,
                     MaxAzimuth = 180,
-                    MinElevation = -80,
-                    MaxElevation = 80,
+                    MinElevation = -85,
+                    MaxElevation = 85,
                     HomeAzimuth = 0, // Default resting rotation angle
                     HomeElevation = 0, // Default resting elevation
                     FixedOffset = false,
@@ -101,7 +102,7 @@ namespace Scripts
                     Type = BlockWeapon, // BlockWeapon, HandWeapon, Phantom 
                     CriticalReaction = new CriticalDef
                     {
-                        Enable = false, // Enables Warhead behaviour
+                        Enable = true, // Enables Warhead behaviour
                         DefaultArmedTimer = 120,
                         PreArmed = true,
                         TerminalControls = true,
@@ -115,7 +116,7 @@ namespace Scripts
                     EnergyPriority = 0,
                     MuzzleCheck = false,
                     Debug = false,
-                    RestrictionRadius = 0, // Meters, radius of sphere disable this gun if another is present
+                    RestrictionRadius = 10, // Meters, radius of sphere disable this gun if another is present
                     CheckInflatedBox = false, // if true, the bounding box of the gun is expanded by the RestrictionRadius
                     CheckForAnyWeapon = false, // if true, the check will fail if ANY gun is present, false only looks for this subtype
                 },
@@ -141,6 +142,8 @@ namespace Scripts
                     DeterministicSpin = false, // Spin barrel position will always be relative to initial / starting positions (spin will not be as smooth).
                     SpinFree = false, // Spin barrel while not firing.
                     StayCharged = false, // Will start recharging whenever power cap is not full.
+                    MaxActiveProjectiles = 50, // Maximum number of drones in flight (only works for drone launchers)
+                    MaxReloads = 0, // Maximum number of reloads in the LIFETIME of a weapon
                 },
                 Audio = new HardPointAudioDef
                 {
@@ -159,11 +162,14 @@ namespace Scripts
                     {
                         Name = "", // Smoke_LargeGunShot
                         Color = Color(red: 2.5f, green: 2f, blue: 0.6f, alpha: 1),
-                        Offset = Vector(x: 0, y: 0, z: 0),
+                        Offset = Vector(x: 0, y: 0, z: 0), // Offsets the effect from the muzzle empty.
+                        DisableCameraCulling = false, // If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
                         Extras = new ParticleOptionDef
                         {
                             Loop = false,
-                            Restart = false,
+                            Restart = false, // Whether to end a looping effect instantly when firing stops.
+                            MaxDistance = 800,
+                            MaxDuration = 0,
                             Scale = 1.0f,
                         },
                     },
@@ -171,11 +177,14 @@ namespace Scripts
                     {
                         Name = "",//Muzzle_Flash_Large
                         Color = Color(red: 2.5f, green: 2f, blue: 0.6f, alpha: 1),
-                        Offset = Vector(x: 0, y: 0, z: 0),
+                        Offset = Vector(x: 0, y: 0, z: 0), // Offsets the effect from the muzzle empty.
+                        DisableCameraCulling = false, // If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
                         Extras = new ParticleOptionDef
                         {
                             Loop = false,
-                            Restart = false,
+                            Restart = false, // Whether to end a looping effect instantly when firing stops.
+                            MaxDistance = 800,
+                            MaxDuration = 0,
                             Scale = 1f,
                         },
                     },
